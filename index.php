@@ -2,6 +2,7 @@
 
 echo "Praticando Arrays <br>";
 echo "Praticando com HEROKU <br>";
+echo "xibata de cachorra"
 
 $Cadastro = array("Maria da Silva",30,1.7,true,"olá",false);
  
