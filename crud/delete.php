@@ -15,7 +15,7 @@ try {
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
   // sql to delete a record
-  $sql = "DELETE FROM users WHERE id=7";
+  $sql = "DELETE FROM users WHERE id=12";
 
   // use exec() because no results are returned
   $conn->exec($sql);

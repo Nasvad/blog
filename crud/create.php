@@ -4,7 +4,7 @@ $nome = $_POST['nome'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-var_dump($nome,$email,$senha)
+var_dump($nome,$email,$senha);
 
 
 //Dados de conexão LOCAL
