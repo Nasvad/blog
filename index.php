@@ -19,6 +19,7 @@
        
        <h1> Front End </h1> 
      <a href="cad_users.html">Cadastrar Usuário</a>
+     <a href="vis_user">Visualizar usuários</a>
 
 
 

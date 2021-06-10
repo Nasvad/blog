@@ -1,4 +1,6 @@
 <?php
+
+
 echo "<table style='border: solid 1px black;'>";
 echo "<tr><th>Id</th><th>name</th><th>email</th><th>password</th></tr>";
 
@@ -32,8 +34,13 @@ try {
 
   // set the resulting array to associative
   $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
-  foreach(new TableRows(new RecursiveArrayIterator($stmt->fetchAll())) as $k=>$v) {
-    echo $v;
+  foreach($stmt->fetchAll() as $k=>$v) {
+    echo '<tr>';
+    echo '<td>'.$v['id'].'</td>';
+    echo '<td>'.$v['name'].'</td>';
+    echo '<td>'.$v['email'].'</td>';
+    echo '<td>'.$v['password'].'</td>';
+    echo '<tr>';
   }
 } catch(PDOException $e) {
   echo "Error: " . $e->getMessage();

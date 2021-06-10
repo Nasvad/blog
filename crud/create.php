@@ -14,10 +14,10 @@ $password   = "";
 $dbname     ="blog";
 
 //Dados de conexão INFINITYFREE
-$servername = "sql207.epizy.com"
-$username = "epiz_28557363"
-$password = "dUh8GAR5PUt"
-$dbname = "epiz_28557363_blog"
+//$servername = "sql207.epizy.com";
+//$username = "epiz_28557363";
+//$password = "dUh8GAR5PUt";
+//$dbname = "epiz_28557363_blog";
 //-------
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
